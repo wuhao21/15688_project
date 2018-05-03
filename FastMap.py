@@ -186,7 +186,7 @@ def show_cluster(X, clt, d):
         d:   2 or 3. The dimension of the scatter plot.
     """
     cmap = plt.cm.hsv
-    colors = cmap(np.linspace(0,1,len(set(clt))))
+    colors = cmap(np.linspace(0,1,max(clt) + 1))
     if d == 2:
         for item in zip(X, clt):
             plt.scatter(item[0][0], item[0][1], c=colors[item[1]])
