@@ -1,5 +1,6 @@
 # 15688 Final Project
 >This is final project for 15688 @ CMU, 2018, Spring
+
 >This README is just a brief introduction to the project. For more details, please refer to the explaination in jupyter notebook files in `notebook/`
 
 - - - - 
